@@ -40,7 +40,7 @@ export default function Footer() {
               <ul className="text-gray-500 font-medium">
                 <li className="mb-4">
                   <a
-                    href="https://github.com/hiteshchoudhary"
+                    href="https://github.com/VickypediaSingh?tab=repositories"
                     className="hover:underline"
                     target="_blank"
                     rel="noreferrer"
@@ -49,9 +49,14 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/" className="hover:underline">
+                  <a
+                    href="https://discord.com/channels/914933438325350400"
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Discord
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -77,9 +82,9 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023
+            © 2024
             <a href="https://hiteshchoudhary.com/" className="hover:underline">
-              hiteshchoudhary
+              VickypediaSingh
             </a>
             . All Rights Reserved.
           </span>
@@ -112,7 +117,7 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Discord community</span>
             </Link>
-            <Link to="#" className="text-gray-500">
+            <a href="https://twitter.com/home" className="text-gray-500">
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -127,7 +132,7 @@ export default function Footer() {
                 />
               </svg>
               <span className="sr-only">Twitter page</span>
-            </Link>
+            </a>
             <Link to="#" className="text-gray-500">
               <svg
                 className="w-4 h-4"
